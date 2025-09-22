@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+  padding: 40px;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.text {
+  max-width: 500px;
+}
+
+.logo {
+  font-family: 'Product Sans', sans-serif;
+  font-size: 40px;
+  color: #4285f4;
+}
+
+.logo::after {
+  content: 'oogle';
+  color: #ea4335;
+}
+
+h2 span {
+  color: #666;
+  font-weight: normal;
+}
+
+a {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ea4335;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
