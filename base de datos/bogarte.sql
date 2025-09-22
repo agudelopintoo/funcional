@@ -7,7 +7,7 @@ create table roles(
 );
 
 create table usuarios(
-    id_usuario int primary key auto_increment,
+    id int primary key auto_increment,
     nombre varchar(50) not null,
     apellido varchar(50) not null,
     tipo_documento varchar(50) not null,
@@ -16,7 +16,7 @@ create table usuarios(
     fecha_registro datetime,
     estado varchar(50) not null,
     email varchar(100) not null unique,
-    contrasena varchar(50) not null
+    password_hash VARCHAR(255) NOT NULL AFTER email;
 );
 
 create table uso_roles(
