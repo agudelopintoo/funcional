@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #555353;
+    font-family: 'Mingzat' sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(esooo.jpg);
+    background-position: top center;
+    background-repeat: no repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.logo{
+    color: #a70a15;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #ffff;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #e1160d;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    display: none;
+    cursor: pointer;
+}
+
+.header-info h1{
+    color: #e1160d;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.header-info p{
+    color: #ffff;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 10px;
+    background-color: #e1160d;
+    font-size: 20px;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+.btn-1:hover{
+    background-color: #a70a15;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #f7efef;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.info h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f1eeee;
+}
+
+.discounted {
+    text-decoration: line-through;
+    color: #b8acac;
+}
+
+.free-shipping {
+    color: rgb(145, 6, 6);
+    font-weight: bold;
+}
+
+.discount {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.rating {
+    color: gold;
+    font-size: 14px;
+}
